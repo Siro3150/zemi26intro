@@ -1,0 +1,44 @@
+.timeline {
+list-style: none;
+}
+
+.timeline li{
+	margin-bottom:20px;
+	}
+
+.timeline-date{
+	margin-bottom:-1px;
+    font-size:2em;
+	}
+.timeline-content {
+	border-left: 3px #e5e5d1 solid;
+	margin-top: .5rem;
+	padding-left: 10px;
+}
+
+
+.midashi{
+font-weight:500;
+font-size:120%;
+color: #2dc997;
+}
+
+
+
+@media ( min-width : 640px ){
+.timeline li {
+overflow: hidden;
+margin: 0;
+position: relative;
+}
+
+.timeline-date {
+width: 110px;
+margin-top: 0px;
+font-size:80%;
+}
+
+.timeline-content {
+width: auto;
+}
+}
