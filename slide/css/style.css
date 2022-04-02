@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: #2dc997;
+  color: purple;
 }
 
 a:hover, a:active, a:focus {
@@ -80,7 +80,7 @@ h1, h2,h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #2dc997;
+  background: purple;
   color: #fff;
 }
 
@@ -224,8 +224,8 @@ h1, h2,h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: purple;
+  border: 2px solid purple;
 }
 
 /*--------------------------------------------------------------
@@ -323,7 +323,7 @@ h1, h2,h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #2dc997;
+  background-color: purple;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -360,7 +360,7 @@ h1, h2,h4, h5, h6 {
 }
 
 .nav-menu ul li a:hover {
-  background: #2dc997;
+  background: purple;
   color: #fff;
 }
 
@@ -448,11 +448,11 @@ h1, h2,h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #2dc997;
+  color: purple;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #2dc997;
+  color: purple;
 }
 
 #mobile-body-overly {
@@ -668,11 +668,11 @@ div {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2dc997;
+  border: 2px solid purple;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: purple;
   font-size: 24px;
 }
 

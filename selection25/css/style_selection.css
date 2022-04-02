@@ -45,7 +45,7 @@
 }
 
 .back-to-top:hover {
-  background: #2dc997;
+  background: purple;
   color: #fff;
 }
 /*--------------------------------------------------------------
@@ -217,7 +217,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #2dc997;
+  background-color: purple;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -254,7 +254,7 @@
 }
 
 .nav-menu ul li a:hover {
-  background: #2dc997;
+  background: purple;
   color: #fff;
 }
 
@@ -342,11 +342,11 @@
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #2dc997;
+  color: purple;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #2dc997;
+  color: purple;
 }
 
 #mobile-body-overly {

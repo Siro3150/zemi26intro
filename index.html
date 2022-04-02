@@ -24,6 +24,9 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- First viewr CSS File -->
+  <link rel="stylesheet" href="css/top.css">
+
 <style>
   .box{
     width:80%;
@@ -49,7 +52,13 @@
   ======================================================= -->
 </head>
 
-<body>
+<body id="top">
+
+  <div class="first">
+    <h2 id="message" class="content font-zen">
+      ようこそ宮崎ゼミへ
+    </h2>
+  </div>
 
   <!--==========================
   Header
@@ -144,41 +153,6 @@
       </div>
     </section><!-- #about -->
 
-    <!--==========================
-      Facts Section
-    ============================-->
-    <section id="facts">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <h3 class="section-title">ゼミにまつわる数字</h3>
-          <p class="section-description">何かとぶっ飛んでいるゼミです。</p>
-        </div>
-        <div class="row counters">
-
-  				<div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">48</span>
-            <p>ゼミ生の人数</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">48</span>
-            <p>元々プログラミング初心者の人数</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">48</span>
-            <p>君のことを求めている人数</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">48</span>
-            <p>ぶっ飛んでる人の人数</p>
-  				</div>
-
-  			</div>
-
-      </div>
-    </section><!-- #facts -->
 
     <!--==========================
       Services Section
@@ -192,8 +166,8 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href="#"><i class="fa far fa-map"></i></a></div>
-              <h4 class="title"><a href="#">ゼミ情報</a></h4>
+              <div class="icon"><a href="syokai/syokai.html"><i class="fa far fa-map"></i></a></div>
+              <h4 class="title"><a href="syokai/syokai.html">ゼミ情報</a></h4>
               <p class="description">どんなゼミかもっと知りたい人はこちらから！</p>
             </div>
           </div>
@@ -246,439 +220,376 @@
       </div>
     </section><!-- #call-to-action -->
 
-    <!--==========================
-      Portfolio Section
+  <!--==========================
+      Member
     ============================-->
-    <!-- <section id="portfolio"> -->
-      <!-- <div class="container wow fadeInUp"> -->
-        <!-- <div class="section-header">
-          <h3 class="section-title">ゼミのみんな</h3>
-          <p class="section-description">個性豊かなゼミ生のみんなからひとこと！</p>
-        </div> -->
-        <!-- <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-logo">Logo</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div> -->
+    <section id="member" class="mb-5">
+      <div class="section-header mt-5 mb-3">
+        <h2 class="section-title">Members</h2>
+      </div>
+      <div class="section-header mt-5 mb-3">
+        <h2 class="section-title">4 year students</h2>
+      </div>
+      <div class="d-flex">
 
-        <!-- <div class="row" id="portfolio-wrapper">
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>青野 真奈</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>青山 理子</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>藤本 優祐</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>降矢 千紘</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>林 龍之介</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>平野 日菜</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>一木 健太郎</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>今村 紗英</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>伊藤 早紀</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>伊藤 海</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>木下 瑞紀</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>北垣 至章</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>小林 優夏</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>三木 俊和</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>宮川 しの</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>村松 亮</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>柴田 幹大</h4>
-                <span>経済学を授業で勉強して、そのまま経済学のゼミに入るのはおもしろくないなと思ったから</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>簀戸 優輝</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>髙橋 陽梨子</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>田村 竜哉</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>谷郷 奈々美</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>谷口 愛美</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>徳山 晴大</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>名前</h4>
-                <span>一言メッセージ</span>
-              </div>
-          </div>
-
-        </div> -->
-
-      <!-- </div>
-    </section> -->
-
-    <!--==========================
-      Team Section
-    ============================-->
-    <section id="team">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h3 class="section-title">ゼミのみんな</h3>
-          <p class="section-description">個性豊かなゼミ生です！<br>みんなが宮崎ゼミに入った理由を見てみましょう！</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member1.jpg" alt=""></div>
-              <h4>青野 真奈</h4><br>
-              <span>理系の道を諦めきれなかった</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member2.jpg" alt=""></div>
-              <h4>青山 理子</h4><br>
-              <span>経済学部でITを学べるのは珍しいと思ったから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member3.jpg" alt=""></div>
-              <h4>藤本 藤吉郎</h4><br>
-              <span>自己分析を行いまして、IT分野に興味がないとは言いきれなかったからです。です。です。皆さん、胸に手をあて興味がないと言いきれない事は、それ興味あるんだよ。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member4.jpg" alt=""></div>
-              <h4>降矢 千紘</h4><br>
-              <span>宮崎ゼミ卒の先輩がおすすめと言っていたから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member5.jpg" alt=""></div>
-              <h4>林 龍之介</h4><br>
-              <span>元々IT分野に興味があり、楽しく活動できそうだったから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member6.jpg" alt=""></div>
-              <h4>平野 日菜</h4><br>
-              <span>宮崎ゼミで学ぶことで、自分の視野が広がればいいなと思ったから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member7.jpg" alt=""></div>
-              <h4>一木 健太郎</h4><br>
-              <span>パソコン使える奴かっこいいと思ってたから。上の人なんか言うてますけど。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member8.jpg" alt=""></div>
-              <h4>今村 紗英</h4><br>
-              <span>アプリ開発や海外研修など、ワクワクするキーワードに惹かれたから!</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member9.jpg" alt=""></div>
-              <h4>伊藤 早紀</h4><br>
-              <span>文系でも使えるITとはなにかを追究していきたかったから</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member10.jpg" alt=""></div>
-              <h4>伊藤 海</h4><br>
-              <span>ITを扱うゼミは珍しく、他でできないことをやりたいと思ったから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member11.jpg" alt=""></div>
-              <h4>木下 瑞紀</h4><br>
-              <span>元々ITに興味があり、なおかつ個性的な人が多いところに惹かれたから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member12.jpg" alt=""></div>
-              <h4>北垣 至章</h4><br>
-              <span>「・・・・・・・・・・・・・・・・・・・・・・」</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member13.jpg" alt=""></div>
-              <h4>小林 優夏</h4><br>
-              <span>新しいことに挑戦したかったから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member14.jpg" alt=""></div>
-              <h4>三木 俊和</h4><br>
-              <span>学ぶ分野が趣味と近くて、公私混同できそうだったから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member15.jpg" alt=""></div>
-              <h4>宮川 しの</h4><br>
-              <span>なんて失礼な質問なの！</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member16.jpg" alt=""></div>
-              <h4>村松 亮</h4><br>
-              <span>将来役に立ちそうなITについて学べると思ったから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member17.jpg" alt=""></div>
-              <h4>柴田 幹大</h4><br>
-              <span>経済学を授業で勉強して、そのまま経済学のゼミに入るのは多数派でおもしろくないとおもったから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member18.jpg" alt=""></div>
-              <h4>簀戸 優輝</h4><br>
-              <span>高校のときに見かけてこのゼミ入りたいって思ってました。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member19.jpg" alt=""></div>
-              <h4>髙橋 陽梨子</h4><br>
-              <span>経済だけど、経済っぽくないゼミに入りたくて、前から興味があったITが学べるゼミを選びました！</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member20.jpg" alt=""></div>
-              <h4>田村 竜哉</h4><br>
-              <span>プログラミングに興味があったから。他のゼミでは身につかないプログラミングという技術が実際に身につくから。多くは語らん。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member21.jpg" alt=""></div>
-              <h4>谷郷 奈々美</h4><br>
-              <span>ずっとIT系のゼミがいい！と思っていて、1回生の時から宮崎ゼミしか見てませんでした！！！！</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member22.jpg" alt=""></div>
-              <h4>谷口 愛美</h4><br>
-              <span>ITに興味があり、宮崎先生の授業が好きだったから。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member23.jpg" alt=""></div>
-              <h4>徳山 團十朗</h4><br>
-              <span>リスペクトしている藤本君と同じく、ITに興味あるかと自問自答して気がついたんです。です。です。自問自答って大事なんだって今更だけど・・・。です。です。</span>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/members/member24.jpg" alt=""></div>
-              <h4>戸丸 竜成</h4><br>
-              <span>個性という名の種をまいて、実用性という名の花を咲かせたかったから。</span>
-            </div>
+        <div class="card">
+          <img src="img/members/member1.jpg" alt="">
+          <div class="introduction">
+            <h2>青野 真奈</h2>
+            <p>理系の道を諦めきれなかった</p>
           </div>
         </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="member">
-            <div class="pic"><img src="img/members/member25.jpg" alt=""></div>
-            <h4>安井 颯汰</h4><br>
-            <span>ITの知識は全くなかったが、ITの知識を身につける必要があると思ったから。</span>
+        <div class="card">
+          <img src="img/members/member2.jpg" alt="">
+          <div class="introduction">
+            <h2>青山 理子</h2>
+            <p>経済学部でITを学べるのは珍しいと思ったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member3.jpg" alt="">
+          <div class="introduction">
+            <h2>藤本 藤吉郎</h2>
+            <p>自己分析を行いまして、IT分野に興味がないとは言いきれなかったからです。です。です。皆さん、胸に手をあて興味がないと言いきれない事は、それ興味あるんだよ。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member4.jpg" alt="">
+          <div class="introduction">
+            <h2>降矢 千紘</h2>
+            <p>宮崎ゼミ卒の先輩がおすすめと言っていたから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member5.jpg" alt="">
+          <div class="introduction">
+            <h2>林 龍之介</h2>
+            <p>元々IT分野に興味があり、楽しく活動できそうだったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member6.jpg" alt="">
+          <div class="introduction">
+            <h2>平野 日菜</h2>
+            <p>宮崎ゼミで学ぶことで、自分の視野が広がればいいなと思ったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member7.jpg" alt="">
+          <div class="introduction">
+            <h2>一木 健太郎</h2>
+            <p>パソコン使える奴かっこいいと思ってたから。上の人なんか言うてますけど。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member8.jpg" alt="">
+          <div class="introduction">
+            <h2>今村 紗英</h2>
+            <p>アプリ開発や海外研修など、ワクワクするキーワードに惹かれたから!</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member9.jpg" alt="">
+          <div class="introduction">
+            <h2>伊藤 早紀</h2>
+            <p>文系でも使えるITとはなにかを追究していきたかったから</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member10.jpg" alt="">
+          <div class="introduction">
+            <h2>伊藤 海</h2>
+            <p>ITを扱うゼミは珍しく、他でできないことをやりたいと思ったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member11.jpg" alt="">
+          <div class="introduction">
+            <h2>木下 瑞紀</h2>
+            <p>元々ITに興味があり、なおかつ個性的な人が多いところに惹かれたから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member12.jpg" alt="">
+          <div class="introduction">
+            <h2>北垣 至章</h2>
+            <p>「・・・・・・・・・・・・・・・・・・・・・・」</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member13.jpg" alt="">
+          <div class="introduction">
+            <h2>小林 優夏</h2>
+            <p>新しいことに挑戦したかったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member14.jpg" alt="">
+          <div class="introduction">
+            <h2>三木 俊和</h2>
+            <p>学ぶ分野が趣味と近くて、公私混同できそうだったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member15.jpg" alt="">
+          <div class="introduction">
+            <h2>宮川 しの</h2>
+            <p>なんて失礼な質問なの！</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member16.jpg" alt="">
+          <div class="introduction">
+            <h2>村松 亮</h2>
+            <p>将来役に立ちそうなITについて学べると思ったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member17.jpg" alt="">
+          <div class="introduction">
+            <h2>柴田 幹大</h2>
+            <p>経済学を授業で勉強して、そのまま経済学のゼミに入るのは多数派でおもしろくないとおもったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member18.jpg" alt="">
+          <div class="introduction">
+            <h2>簀戸 優輝</h2>
+            <p>高校のときに見かけてこのゼミ入りたいって思ってました。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member19.jpg" alt="">
+          <div class="introduction">
+            <h2>髙橋 陽梨子</h2>
+            <p>経済だけど、経済っぽくないゼミに入りたくて、前から興味があったITが学べるゼミを選びました！</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member20.jpg" alt="">
+          <div class="introduction">
+            <h2>田村 竜哉</h2>
+            <p>プログラミングに興味があったから。他のゼミでは身につかないプログラミングという技術が実際に身につくから。多くは語らん。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member21.jpg" alt="">
+          <div class="introduction">
+            <h2>谷郷 奈々美</h2>
+            <p>ずっとIT系のゼミがいい！と思っていて、1回生の時から宮崎ゼミしか見てませんでした！！！！</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member22.jpg" alt="">
+          <div class="introduction">
+            <h2>谷口 愛美</h2>
+            <p>ITに興味があり、宮崎先生の授業が好きだったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member23.jpg" alt="">
+          <div class="introduction">
+            <h2>徳山 團十朗</h2>
+            <p>リスペクトしている藤本君と同じく、ITに興味あるかと自問自答して気がついたんです。です。です。自問自答って大事なんだって今更だけど・・・。です。です。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member24.jpg" alt="">
+          <div class="introduction">
+            <h2>戸丸 竜成</h2>
+            <p>個性という名の種をまいて、実用性という名の花を咲かせたかったから。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/members/member25.jpg" alt="">
+          <div class="introduction">
+            <h2>安井 颯汰</h2>
+            <p>ITの知識は全くなかったが、ITの知識を身につける必要があると思ったから。</p>
           </div>
         </div>
       </div>
-    </section>
+      <!-- 3年生 -->
+      <div class="section-header mt-5 mb-3">
+        <h2 class="section-title">3 year students</h2>
+      </div>
+      <div class="d-flex">
+        <div class="card">
+          <img src="./img/members/ara.jpg" alt="" />
+          <div class="introduction">
+            <h2>Ken Arai</h2>
+            <p>目指せポケモンマスター</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/ishi.jpg" alt="" />
+          <div class="introduction">
+            <h2>Kodai Ishida</h2>
+            <p>狙った獲物は逃がさない<br />年上キラー‼</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/gaku.jpg" alt="" />
+          <div class="introduction">
+            <h2>Gakuto Ito</h2>
+            <p>悪の秘密結社で働く<br />アップルボーイ</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/iba.jpg" alt="" />
+          <div class="introduction">
+            <h2>Riko Ibata</h2>
+            <p>三度の飯より麻雀</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/ume.jpg" alt="" />
+          <div class="introduction">
+            <h2>Kotaro Umeki</h2>
+            <p>島根出身シティーボーイ<br />兼カメラマン</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/egu.jpg" alt="" />
+          <div class="introduction">
+            <h2>Sojiro Eguchi</h2>
+            <p>韓国人と日本人のハーフ</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/ota.jpg" alt="" />
+          <div class="introduction">
+            <h2>Keisuke Ota</h2>
+            <p>年中彼女募集中</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/oka.jpg" alt="" />
+          <div class="introduction">
+            <h2>Hiroki Okamura</h2>
+            <p>ヘルニア持ちエンジニア</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/tama.jpg" alt="" />
+          <div class="introduction">
+            <h2>Tamae Okumura</h2>
+            <p>タマちゃんです。<br />わわわ、わ～‼</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/kato.jpg" alt="" />
+          <div class="introduction">
+            <h2>Hiroto Kato</h2>
+            <p>ゼミ唯一の彼女持ち</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/waka.jpg" alt="" />
+          <div class="introduction">
+            <h2>Wakaba Kadota</h2>
+            <p>切れ味のいいツッコミ<br />惚れてまうやろ～</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/kana.jpg" alt="" />
+          <div class="introduction">
+            <h2>Yusuke Kanada</h2>
+            <p>コンタクトレンズ<br />飛んでいきがち、<br />マシンガントーカー</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/jihe.jpg" alt="" />
+          <div class="introduction">
+            <h2>Jihye <br />Kim</h2>
+            <p>韓国人と韓国人のハーフ</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/kano.jpg" alt="" />
+          <div class="introduction">
+            <h2>Kanon Kozu</h2>
+            <p>高の原の女(どこ？)</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/sumi.jpg" alt="" />
+          <div class="introduction">
+            <h2>Takumi Sumise</h2>
+            <p>宮崎ゼミが誇るサイコパス</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/hase.jpg" alt="" />
+          <div class="introduction">
+            <h2>Keito Hasegawa</h2>
+            <p>宮崎先生、<br />ぼくと踊りませんか？</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/mire.jpg" alt="" />
+          <div class="introduction">
+            <h2>Mire Hirouchi</h2>
+            <p>みんなのママ</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/mizu.jpg" alt="" />
+          <div class="introduction">
+            <h2>Shunsei Mizumori</h2>
+            <p>伝説の日本産マーライオン</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/naga.jpg" alt="" />
+          <div class="introduction">
+            <h2>Takumi Nagai</h2>
+            <p>一家に一台、永井匠</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/naka.jpg" alt="" />
+          <div class="introduction">
+            <h2>Haruna Nakamura</h2>
+            <p>肝臓3つ持ち</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/sana.jpg" alt="" />
+          <div class="introduction">
+            <h2>Sana Nishiki</h2>
+            <p>眠れる南の美女</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/noba.jpg" alt="" />
+          <div class="introduction">
+            <h2>Kai Nobata</h2>
+            <p>恋はグラデーション</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/ake.jpg" alt="" />
+          <div class="introduction">
+            <h2>Akemi Matsubara</h2>
+            <p>実は私、○○な女です…</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/fuku.jpg" alt="" />
+          <div class="introduction">
+            <h2>Kota Fukuda</h2>
+            <p>天才ハッカー(ポンコツ)</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/members/china.jpg" alt="" />
+          <div class="introduction">
+            <h2>China Fukunaga</h2>
+            <p>宮崎ゼミの裏ボス</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- #member -->
 
   </main>
 
@@ -686,24 +597,9 @@
     Footer
   ============================-->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-
-      </div>
-    </div>
-
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Regna</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
-        -->
-        Designed by <a href="#">MIYAZAKI SEMINAR</a>
+        &copy; Copyright <strong>Miyazaki</strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- #footer -->
@@ -726,69 +622,8 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/top.js"></script>
 
 </body>
-
-<!-- K.Miyazaki
-
-zzOz+<<+zOOzX@@H@HHHHHH##NNNNNNNMHWuzrl==??>>;;;;::::~~~:~~~~~~~~~~~~~~~~~~~~~~~.~~~......```````````..___((+++++++++;>;;;::~:~~~~~~~~~~~~~~~::<+zOXXWHM@HH##N#########HHHHHHH#HHHHHHHWuuuuZXyZZZXXvrr
-zuXrOzzOwvvwW@@H@@@@HH##NNNNNNNNMHVuurtll==?>>>>;;::~:~~:~~~~~~~~~~~~~~~~~~~~~~....~.....`.``````  .__(++zzOOttlll====?>>;;::::~~~~~~~.~~~~~~~~~::<<1zOXWHH@HH########N#NNN###H##HHHHHHWXzuuuXXW0uXuuwrr
-wOOtOzzvrrXWH@@@H@@HHH#NMNNNNNN#MHyZuvrtl==??>>>;;::~~:~~~~~~~~..~~.~~.~~.~~~~.~....~......-_____((++zzwvuuuuvrttl==????>;;;:::~~~~~~.~...~~~~~~~~::;>1OwWHH@HH##NN####HH##NNNN#####HHHHkXuuzuuuzvvvzwrt
-lll=lwvrrvXHg@@@@@@@HHNNNNNNNNN#MHWZuzrttl=??>>;;:::~~~~~~~~~~.~~.~~.~~~~~~~~~~~~.~~~~~___((++zzzwwwXXXXZZZZuurttl==?><;;;::::::~~~..~~.~.~~~~~~~:::::<1OXWHHMHH#N#H#HHH###NNNNNNNN#H@@MHWXzuuuuuuuzuuuu
-+=l=lltrrwXqg@@@@gg@@HNNNNNNNNNHMHWyZuvrtl==??>>;::::~~~~~~.~...~..~~~~~~~~~~~~~~~~~_(<++zzOwwXXXWWWkbpWWyZ0ZOI11?<<;;::;;;:~~~:::~~~~~~.~.~~~~~~~~:::>?zwXWHH@@HNNN#HHHHMMMHHHHHMMMHHHMHHSzwOwOOOwzzuZZ
-+====llllOXmg@HHHqqgHHNNNNNNNNNHMHHyZuvrtl===??>;;::::~~~~~..~...~.~~~~~~::~~~~~:::;<+1ztrzuZyfpbkqkqkHWUVOz<<<<;;>;;;>>?>>;:::~~:~~~~..~.~.~~~~~~~~::>?lwXXpkqH@HHHHHHH@HHUCvzOOOXWHM#MHWWXOzz<?zOzuzzu
-wOl=zwwOz1dHH@HMHkqHM#NNNNMMNNN#HgHWyuzvtt===??>>;:::~:~~~~~~.~.~...~~~~~:::~:::;+???=ltrvuyyVfpppWWWW0Oz1<<:~~~::;>>??????>;;:~~~:~~~~.~..~..~~~~~~::;?ztwZVpbqHMHHHHMHHHWXwwwXkwOvOWHMHHSwtlzzzOwuuZOz
-ZXwOwXurO1dHgg@MHbkHMNNNNNNMNNN#HMHWWyZXvrl=??>>>;:::~~~~~~~~~~~~~~~~~~:::::;;;>+zlllltrrzZyyyyyVWXVOOI<<~___._~~~::<<<:>>>>>>;;::~~:~~~~~~.~.~~~~~~~~::>1OwXpppkqg@@@@mkkkkWWWkpfyXwOzZWWWXrrrrrvzuXWkwO
-uuzrwXuzOOXg@@@MHfkHHNMMMNNNNNN#H@gqpVyZuwtl=??>;;;:::::~~~~~~~~~~~~~~~::::;>>>?zOrvrrrrzuuZuuuuXZOz<<<<:~~..`...~~~~~~~~:~~<:::~:~~~~~~.~~.~.~~~~~~~::;1zwWpppbkmg@@@HkWfpWppbbpVyWkz1zwWWkOltOOOwXWpWW
-zOtllOtttwXmgg@HWWWHMNMMMNNNMMNNH@gqbpfVyXzOl=??;;;:::::::::~:~~~~:~:::::;;>??=llrrvvrrvuuuuuzvOOz<;::::~:__-...______:~~~~~~~~~~~~~~~~~~.~..~.~~~~~~~~:+zwWppppkqmg@HHyyVVWXVOZXXVpkOz;1wXWZlzz<<+OXWpp
-+Owrtl=?lwXqmmgHWWHMNN#NNNNNNNN#H@gqbppfyZurl==?>;;;;:;:::::::;;;;;;;;;;;;;>?lltttvzuuzuuuzzvrtl=??+++++++&zzuwwwkkXwwwzz+++<<<_~~~:~~~~.~.~~.~.~~~~~~~:<1wXVffppbqgmHWZZXUVI<~~(1wXXZwz>1wSZz<~<;>1zOVV
-zwuOtttttvXWHggHSXHMMN#NNMMNMNNN#HMgqkbfyXwttl==??>>>?>>>>>>>>;>>>>>>>>>>;;>?ltrrrzuuuuuuuuuzrtl=zzwwwwWWHHMMMHMMHHHHWUU0ZOOO1<<:~..~...~....~.~.~~~~~~:(<zwXVfpfppbHWWuuOz<_...__<+zZOz<(1wtz<~~~::~~<<
-tvwv=lOwOtwXWH@HkzXHMNMN#NNMMNMMNHHgqkpfZXOOOOOOzzzzzzzzzzzzzzz1====l=z=z1?>>1zOOrrzuzuuuuuzrrtOOwXXWWbbHMMMMHWUC1<<<<~_~~::~~__..~..~....~.....~.~~~~~~::+zwXVfffyyyZuzvI<<___-..~_~<<::~<zwZz_((+<_~..
-lrwz==lll=zwXWHHkuuWMNMN##NNNNNN#H@mkbbWWWXXXXXWWWWWWWWWWWkXwwwwwrwwvvwwwOz+;;>+11zOwXXuuuuzrvvXXWmmHHHWUUUUVOz<:~~~~~___::~~......~..~....~~.~.~~.~~~~~::<1OXyfffyZUXXuXwzz++<<__~..~~~::;1wVz>?==z<~_.
-trt==ttrrtvuzXWWWWWWMMMNNNMN#NNN#H@@mqmggmHHqqqqmggg@gggmmkWWVWZZZZZZZZyyXOz;;::<<<+1zzOwwwrrruXWHHHUUZtttll=?+<<__(((+>>:<~_................~.~.~~~~~~~::;+zwZVpfXVO=lwXffXOOllz<__.~~~~:;+zzz?<<<<__``
-rrOllrvzvvvzrtrXWqkqmHH##NNNNNNMN#H@ggg@@H@@@@@@@@@@@@gggqqqbppfVyyyyyyVVXXz>;:~~~~~<<<<<<1zOOwXUUVOttOOrttOOOzzzzzzzlz<<<_.....................~~~~~~~~:::>zwXVpHXOz<<1ZXWyuOll=?<_~~~~~_<zwwO<<:~~~_- -
-uuwOrrrvvzuuvtlwXWWHmHH#NNNNNNNMN#H@@@@HHH@H@@@@@ggggmmqkkbpbbbbpVVffffVVZXI<<~.......~~._~<1zllllzOwwuuuuuuuZZZZXVZCz<<__.``.`.````..``....~.....~~~~::~::;1OwXWW0v<~__+OXyXO==?=<~~.~~~_<zwkI>:::_:(;;
-XXuzvvrtrvzuwrrrrvXWHMMMNNNNNNMNN#H@@@@@@@@ggggmHHHHWHHHHbpfpbppfVVffpfVyZZz<~~..`........._<<+11zOZXVX0UUUU0VVVOC<<~.....`.``````````.`....~~.~.~~~~~~::::;+zOXXWXI<_._(zXUUOz===<_~..~~_<zwkOz<~;+++>>
-lwvzvrrtrzuzOzOOvvrwXWHMHNMNNMNNNN#H@@@@@@gggmqbpVyZZuXX00UUUUWffpffpppfWXwz:~~..`.........`.___~~<<<<<<<<<<<<<~_~.........``````````......~~~~~~~~~~~::::::>1zOwZI<<~~~~<<<<<<<<1<~.~~~~_+OXXwz<_<zwOz1
-wvzzvzzzzuzzOz<+OZOlOXWHMMNNNNNMMN#HHH@@@ggmqkpfyZZXwOOl=?=lOwXyWWWyyWpbWW0z<_...``......``.`.`..`..`..`...............``````````````.``...~~~~~~.~~~~::::::;>?==v<::~~~~~......_~<_.~~.._+wuZZwz+uwWkww
-uuuzzuzwZOOrrO++zOzzOzXUWHMMNNNNNN#HH@@@ggmqbbpVZXwOllOwwwAmQQQkkkWZXXUWbpkO<_~...``.....`....`.....`````````............`````` `````.`......~.~~~~~::::::::;;;>??>::~:~~...``.`...~_~~._(zXZyWWkWWqkbpp
-wXyXuzvrtzwXXkwwwOzztOvOOUHM#NNNNN#H@@gmqqqqkpWXVOtOwXXWHMMMHMMHHUUUzvrXWfWZz<~~..`........`````........`````..`````..`..````` `````.......~~~~~~~~::::;;;;:::;;;;;;::~~......``...~~:_._+dWyZWWHm@gqbff
-1wyZXOOltwXyXUXyWkwOtz<<1wXHMMNNMN#H@@gmqqqqbfyXwwXWWH@HHHMMHUVOzzzOzvtOwXWXz<~~..``....```.``````....................``````````````.......~~~~~~~::::;;;;:::::;;;;::::~~..````...__~...(zXHWyZWWmgHHWyy
-zwuuXwOOrrXXZOOOXUOz<<~~<zwVWHMMNMNHHggmqqmqbpfWWHHgggHHHHU0I??1zzwwwwI<<OyXOz<~...`.......`.``````..`.................`.```````````.....~~~~~~~:::::;;>;;:::::;;;:::~:~~..`.``````...._+wXqpWXXUUUWpWyy
-lOOXZZZurtwXZ1<1OwwOz<~~(1trwZUHMMNNMMmqqqkkkkHHMHHHHHWWXVrtOzOwwZuXOz<:(zXuXz<_...`...`.`....`.`..`..........................`......~.~.~~.~~~~:::::;;;;;::::::::::::~~~.`````````.``_(zXWbpWXOOOOXWHbb
-==zwuXzzzzXSI<?zOvzrOz<_(zuXXIOZUHMMHMHqkbkkbqg@MMHHWyZZuXXuwXXXZVI<<;;;<1OwXv<~....`.............______~~_:~~~~~~~~~.............~~~~~~~~~~~~::::::;;;;;:::::::::::::~~~..``.`.......(jwWkbpfWkkwOwWbbb
-tttOOtvuuuZOz<1llllll=?;<zvzzwwOOOXWM#HHHbqkpH@@gHppVyyZZyyyWWpWVI<;;;;>>?=OZz<_~...`.`.........~~~~::;++++<<_:::::~~~~~~~~~~~~~~~~~~~~~~~::::::::::;;:::::::~~:::;;:::~~_..``.`....__+wWmqqqqkkWkXuXWkk
-rOz<+zvzwOz<1zztttrtll=++zzzzwwtllOwWHH@Hqkkqm@ggqbbbpWWppppWW0I<<:~::;+==llv<;:~~..`.``..`........~__~<?????11+<;:::::~~:~~~~~:~~~~::::::::::::::::;;:::::::~::::;;::~~(____- -__~_(+yXHHmkkqkHppfWyZWqq
-O=??zwwvOttOOrrvrrtll=?><+1111zwvzrrXWHggmbkqmmmqqqkkqkkHWUUC<<<:::::;;?=ttl=>;:~~...`.................__~~<+=ll=1+>;;:;:::::::::;;::;;;>>;;;>;;;;;;:;::::::::::::>>;;:<+1zz++++++zwXHMH@mkbppfVyXX0wXWV
-lltllzz=lllzOZz+1zll=?><~~<<:><:<1zl=lwWmgmkkqqqqqkkbWWWUZI1<<;:::::::;>zwzXO=>:~~~~..```..............~.~~~~~<+=lltzz??>>>>>;>>>????>>?>???>??>>>;;;:::::::~:~::::;;;;;>?zwXXkkXXWHMM#H@@gmqpppyXZ<<1wyV
-ll1<<;<?=llllIz>?zOrtz?;::(1zz++1ttrtOXWHgqqqqkkbpWX0ZOI1<;;:::::::;;;?zzuztz<::~~~~_..............~~.~~__~~::;<+1ztl=?????????==========???>>>>;;;;::::::::~::::;;;;;;;;zwXppVfWHHH#NHH@mmqkbkWXO+zwuUU
-t=?<<<+1===?=lzzltzzvI<<_~<zrtttl=zrrrzXHggmqkkkHWXZzz>;;:::::::::;;;>?zzuuwOz<<:::::~~_:::_________((((<+<:~~:::<+11===??===lllltllltll==?>>>;;;;;;:::::::~:::::;;;>>>>>1wXfffpkHMMNNH@@@ggHbkHWXwwXwll
-==1zzzOrz>;>1zwzttlttz<_-_(+ltrvOzzttrvXWHmmkkkpWXwO?>>;;::::~~:::;;>?=OzuuuXwOz++<;;;<<<<+++zuwwwwwwOzOOl<<~~~~~~:<<;;<:;<<11==llllllll=??>>;;;;;;:::::~:::::::;;;????>>zwZfffpbkgMHHH@@ggmbWXUXXWbkWXX
-+=zwuXwOv>>?zOOOv1<1llz<(<+1l=zOwZXrttrzuXHgqqkWXXtll=?>;:::::::::;;>??zrzuyVyXwOOzzzzzzzzwXWWHgggmkbfyyVv<_...~~~~~~::~~~::::;;<<<????>?>>>>;;;;:::::~::~::::;;;;>>????>zwZfVyVpbqgMMHH@@@HHWZttwWWfpkk
-(+zOOIz1??>><???>;<<+11<<+1lz<+1OXXwrtrrwXWHHkpWurttl=?>;::::::::;;>>??=rwXfpppWXXXwwwwwXXWWqqmmmqqkkpWVI<~.......~~::;>;;:~~~~~:::;;;;;;;;;;;;::::::::~::~::;;;>>;>???==zwZyyVVfpbqHMMM@@@HHXZtrXUUXWWH
-(;>?=?>;;;::;+?=?<____:~_~<+<<;;+zl=11zIz1OXWppWXwtll??>;;;::::;;;>>???lwXffpppppWWWWVVyyWWHqqkbppWWUVC<~_..~~.....~~<<:>>>;:::::~::::::::::::::::::::::::::::;;>>>???===ltruyVVVfppbkHHHHgmHWXOtwwOwwwuu
->>>>?=?+<<;;>?=l==???<<_`._~::::<1??<:<<~~<zXWpVZurtl??>>>>;;;;;;;>???=zwXpfppkHgHgmqbpfWXWpbkbWUUVz<~....~~~.~.~~.~~~~~:;;;::::::~:::::::::::::~~~:~:~::::;;;>>>??==lllltvuyVfVyyypWUUVUWHH0rOwXkkXpWuu
->;;>??==?>>>+zlz<<?==<__ ._~~:~(::<?;:____<1wXpWWXzrt==??=??>;>>>>???==twXppfbqH@MMgqkkbbkkqkHU0I<~~~~~~~~~~~...~~~~~~__(:;;;;>;;::~~::::::::::~::~~:~::::;;>>????===lOrtrrwXWVyyyyW0O<<+wXWXwwXWqqqkWwr
-;;:+?????>;<zOlz<:;<>><_~~~~_:;;::<?<++z+<<<zXpppyuuwOzz=l==??????====ltwWkbpbkggmqqqqqqkkqHW0Oz<:~~~::~~~~~~.~~~~_(((<++zzzz1??>;::~~~::~::::~:~::::::::;>>???====lltvzzrtOwXyyyVVZZv<_~<zXXZXWVWWkqkwr
->;;?=?????<:<+1z<::++?1<;<<_(++<<<+zzzttrO++zXffVyyyZuXOOOOlllltlllllllrwWkkkkqgmmqqmgmmmqHW0Oz?<;:~~~:~~~~~~~__(<++1zzwwXkkXwOz?>;::~:~:::~~~~~:~:~::::;>>>??==llttrrvzzOz11OwXWW0VI<~.._~<zXWpWWfWHWXX
-z<<zlll=llz+<;1=++zzwwOOzzz==zzOzlzvuXwrrrOOvZWVWWWWWXZuuuuvvvzzvrrrtttwXWkkqqmggmmggggqHH0C11==?;:~~~::_((++++1zzzwwXWWHHgHHkkwzz;:::::::::~~~~::::~::;;>???=lllttrrrvzzOz<<<<1zOI1<~~~..  _<?XWfVVVVVV
-<<(zrtttllOOz+??=ltvwwwvzvOz++zOOllOwXwrzzrrrvwXWWkkbWWWWyZZZZZZZZuuzzvwXWkkqmmmmmggggmHW0v;:<1<>>;++<++zzywwwwkkWWWHH@HHHHHHWWuOz<;::::::~:~:~:~:::::;;>???=llttrrrvvzuzOz<~~.__~<<~~~.~. `` `~?OXWWWyy
-::(zrwXwOlOrrOz==llv111zOwwz+;<11?=lrvOzOrrrrrtOOXWWkbppfVyVyyyVVyyyZZuXfbkqqmmmmmggmqHH0I<;>>>>;>+zOwwwwXyfpbWqmmHHHUVC<<<+1zOOOl?<;::::::~:~:::::::;;>??==lltrrvzuuuuwOz<:~~~~~.~~~~...~..`    _?OUWyy
-zz1zrXZyklltvwv<<<<<>;>>1OzwOz<<<~<zwXwOwuuXXkwOOzXWppfVVfffVVffffffVyyWpbkqqmggmgmmqbWSZlzzzzzzzzzwXXWWWfppHmmHHU0Cz<<~~~~~::<<<+??>;;::::::~~:~::::;>???=ltrrvzzzuuuzOz<;::~~...~~~~~.~~.`` ```` _<1ZZ
-tl=1zwuXXwwwXXwwzzz+1zzzzwuuuwO<_(+lOOzzXZuXXXzXXXXVffffffppffppppppffVpbkqqmmmmgmmqkpVyXkkkkkkkkkXXWpkkqHmmHWUVz<<<:~~~~~:~:~:::;>>>;;;;:::::::::::;>>?==ltrvzuuuuzuzrv<;:~~~....~~~~.....```     ` `~~
-===?zOOOzz11zOXZZXwwwwXwrvzzuuXwOzwzOOz1wuXXwttwZVwXXWpHHpppppbbbppbkbpbkqqqqqqqqmqqkkbWkqqqqqqkkbpbbkqmHHUUC<<<~~~~:~~~~:::::~:::::;;;;;;::::::::;;>>??=lttrzuuuuuuuwIz<::~~~...~~~~......```    `
-<+=zOwOz==?;;<zwXzuuuZyXuzzzuzXuuuuuuXwwzXWWXXwwXI+zOXXWppffppbkbppbkkkkqkqqqqqqqkqqqmmggggmqqkkqmggggHWUOz<<:~::::::::;:::::~~~:~:::::;::::::::;;;>???=lttrzuuuuuZuwOz<:~~~~..~...~...~...`` ` `
-_~+wuuOz=lz;:(1trvuuwXXZyZuuZvzwXyZuZZZuuXWppWyyXwzOwzzXXHkbpVVfpbbkkkkkkqqqqqqqqqqmg@@H@@@ggggH@@HHHU0I1?>>;;;;;;;++???>;:::::::::::::::::::;:;;;>??==ltwzuuuuuZZZXOz<:~~~~.~.~~..~~...~..``    `  `
- _<zrOIz?<<::+1trzuZvzOwuwrrI<<zOZXWWWWZZXWpfVyVpWXXXZZv1XWkbbpppbbppbkkqkkkqkqqmg@@HH#HHHH@@HH@MH0Vz<<?=??????1zzzll==?>;:::~::::~:::::::::;:;;;>>?=lzOvzuuuuuuZZXZv<<:~~~.......~......~.``  `  `  ` `
-(<+zOl<;;;<(++ztvwOI1zOOwrtrOzzzz<<zXH0OvOwXyyZWWpppfpk>~~jWHkbpppbbpppkqkkkbbkkqg@@@@@MHH@@@@@HH0Ol=zzzllzOwwwXXXuvtl??>;:::~~~~~~~~~::::::;;;>???==OruuuuuuZZZZXZz<::~~~~~..~....~....~..``   `  `
-llzwuwOOzllzwXOllz<<:<<<<1OXyZZyw+++zzOz1zwyfyuXXWbbbkSI<_(1ZWppppppppppkkkkkbkkkkkqqmmmg@@@@gmHVXwOOwwwwXXXWbppyXzOl=?>>;;:::~:~~~~~~~::::;;;>??==lOwuZZuuuuZZZZXI<;:~~~~~................`  `       `
-1zOOOtOZOOlltrO==<<:____(+zXSOwXWpWXZZZZXwXXWVXwOXppW0Z<~`` ?ZWHfWppbpppkbbbkkkkkkkkqqmmqqqmqkbpffWWWfpWkkkqkkWWXzrtl=??>>;;::~~~~:~:~::::;;>??=ltrvzZZyZZuZZyyZXOz::::~~~..~..........~..```    `  `  `
-~~~<<1?;zzOltrrOz<:<zzwwwwuUUuwrwXyVyyyyXXfWWWfXwXyX0Oz_. ``-_1XWHppppkbppbbkkkkkkkkkqqqqkqmmmqkbkkkkkbkkkqkbWXXwrrOO11?>;;::~~~~~~~~~:::;>??=ltrvzuuZZyZZZZyyyXOz<::~~~~~~..~.........~..`` `
-__-~(+?>1OI1zI1<<(+1wZZZuuXOzXZzuuyVyZyWbWWZuZVVVyXwtOzz<_. `._<zXWbbbbbbbbbbbbbkkqqkkqqqkqkqkkkkkkkkkqkkkbHWUVOI11<<<:::::~~~~~~~~:::::;??==ltwzuZZZZuZZZZZZyXVz;:::~~~~~~~..~..~.......``
-+<_~(+<:<?<:~_<?++zOwXVZwzuXXZuuuuX0VOwXWWZZyyyyyyXwwXXXI<~~_.` (zXfppbbpbbbpppbkkkkqqkqqqkkkqmmmqbkkqmmHHWUZI<<::::~~~~~~~~~~~~~:::::<+1llltwwuZZZZZZuuZuZZZXZI<:::~::~~~~~.~.......~...```
-=<<<~~~<+wz++(+zOwwOOlllzwZyWWXXuzOOz<;+OXZyyZuuZZWXwXWVI<~~~~.-(+wypppWWWkbbbbkkkkqqqqkqqkqqqqqkqkkqqHHUUOI1>;::::~~~~.~~~~~~::(::;<+1zOwvvzuZZyyZZZZZZZZZuXOz<;::~~~~~~~~.~.~.~.~~.~..```  `  `  `  `
-z<~_.` (zXZz<<<<<<<11=ltvXXXwzwOOwzzOzz1zwXZZZuZyySZOwuZI<~~~~._(+wXWWWHHHkkbbbbbkqkkqqqkkqqqqkkkqqkHW0Zzz>>>;;:::::~~~~~~::::;;>>??1zOwwuZZZZZyyZZuuZZyyZuXZz<;:::~:~~~~~~~.~.~...~....`   `
-I<~.`` (zzv::~..~~~:>=ltrzvttrO==lwuuuvrvuZZZuZyVZXI=tuZI<~~..._(1OzzzzZyfpbbpppbqqqkkkqkkqqkkkqqkkpVZwv>;;;;;;;::::~~::::::;;>>???=ltvuZZZyZyyyZZuuuZZyZZuvl?>::::~~:~~~~~.~.......~..``  `  `
--->
 
 </html>
