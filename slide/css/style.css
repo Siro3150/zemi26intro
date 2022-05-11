@@ -338,7 +338,7 @@ h1, h2,h4, h5, h6 {
 }
 
 .nav-menu ul {
-  margin: 4px 0 0 0;
+  margin: 0 0 0 0;
   border: 1px solid #e7e7e7;
 }
 
@@ -698,7 +698,6 @@ div {
 --------------------------------*/
 .powerpoint{
 	text-align: center;
-	margin-top: 500%;
 }
 
 .powerpoint002{
